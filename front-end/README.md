@@ -1,6 +1,6 @@
 # Front End Challenges
 
-You will find two assignments in the sub-folders here, each with specific instrustions on the assignment. 
+You will find two assignments in the sub-folders here, each with specific instructions on the assignment. 
 
 1. The first is a QA challenge, intended to gauge your eye for detail and yen for pixel-perfectness.
 2. The second is a creative and programming assignment. This is intended to gauge both your design/creative chops and your raw programming skills with front-end technologies like HTML, CSS, SASS.
