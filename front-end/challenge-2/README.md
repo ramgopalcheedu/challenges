@@ -13,7 +13,7 @@ As you implement your design, please be sure to use mailsafe html (hint: use tab
 
 We have not attached any mobile design assets, so use your creativity and judgement to make sure everything is readable, understandable and looks good on mobile screens.
 
-Static assets: *We’ve sent you a Zeplin invitation. The file is name [`Newsletter`](https://app.zeplin.io/project.html#pid=58bd788a01ee60c44b2ff3bd).*
+Static assets: *We’ve sent you a Zeplin invitation. The file is name [`Newsletter`](https://app.zeplin.io/project.html#pid=58bd788a01ee60c44b2ff3bd&sid=58bd79636491fcb463d74fea).*
 
 *Purpose: This assignment helps us understand your level of expertise and knowledge of CSS and HTML limitations. Additionally this will help us gauge your level of visual creativity.*
 
@@ -27,7 +27,7 @@ Some of the required aspects for the marketplace design and layout is: trust, vi
 
 You will find a screenshot of one idea for the marketplace design in `Marketplace.png`. Using our current marketplace as a base, please make any design improvement you see fit and then implement parts of your design using SASS with BEM syntax. 
 
-Static assets: *We’ve sent you a Zeplin invitation. The file is name [`Marketplace`](https://app.zeplin.io/project.html#pid=58bd788a01ee60c44b2ff3bd).*
+Static assets: *We’ve sent you a Zeplin invitation. The file is name [`Marketplace`](https://app.zeplin.io/project.html#pid=58bd788a01ee60c44b2ff3bd&sid=58c023ddf753a78833238385).*
 
 *Purpose: This assignment helps us understand your level of expertise and knowledge of building responsive modular front-ends, helps us gauge your level of design perfection and also gives us a sense of your creative skills around organization and presentation of information.*
 
