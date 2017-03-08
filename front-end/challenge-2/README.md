@@ -20,7 +20,7 @@ Static assets: *We’ve sent you a Zeplin invitation. The file is name [`Newslet
 ----
 
 
-### Option 2: Marketplace 
+#### Option 2: Marketplace 
 The YieldStreet marketplace is the most important page on our platform and to this day, more than $100M has been funneled through here.
 
 Some of the required aspects for the marketplace design and layout is: trust, visibility, readability, urgency, easy to understand.
