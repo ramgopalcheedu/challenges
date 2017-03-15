@@ -1,7 +1,7 @@
 # Challenge 2 - Programming and Creative
 ### (3 to 3.5 hrs)
 
-For this assignment you'll be using your tech chops and your eye for pixel perfection. Using the provided design assets, we ask you to create an implemention of one of the two options below: (you will not be able to completely finish in 3.5 hours so be dillegent in selecting which elements you implement. We care more the quality of your code than how far you get). 
+For this assignment you'll be using your tech chops and your eye for pixel perfection. Using the provided design assets, we ask you to create an implemention of one of the two options below: (you will not be able to completely finish in 3.5 hours so be diligent in selecting which elements you implement. We care more the quality of your code than how far you get). 
 
 #### Option 1: Newsletter
 The newsletter is a very important touchpoint with our users and we send it out once a month to more than 10,000 people and organizations across the country. It usually contains a combination of: new features, products, new articles, new blog posts, featured messages, user requests, new event etc.
