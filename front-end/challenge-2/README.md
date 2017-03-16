@@ -6,7 +6,7 @@ For this assignment you'll be using your tech chops and your eye for pixel perfe
 #### Option 1: Newsletter
 The newsletter is a very important touchpoint with our users and we send it out once a month to more than 10,000 people and organizations across the country. It usually contains a combination of: new features, products, new articles, new blog posts, featured messages, user requests, new event etc.
 
-Please use the design asset: *[`Newsletter`](https://app.zeplin.io/project.html#pid=58bd788a01ee60c44b2ff3bd&sid=58bd79636491fcb463d74fea)* *(We will send you a Zeplin invitation shortly)* to create your implementation. 
+Please use the design asset: [`Newsletter`](https://app.zeplin.io/project.html#pid=58bd788a01ee60c44b2ff3bd&sid=58bd79636491fcb463d74fea) *(We will send you a Zeplin invitation shortly)* to create your implementation. 
 
 We have not attached any mobile design assets, so use your creativity and judgement to make sure everything is readable, understandable and looks good on mobile form factors.
 
