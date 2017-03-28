@@ -9,3 +9,9 @@ Please work on **both** of them. The second one has a couple of options to choos
 
 Also, know that we care more about quality rather than how far you get. If you’re not able to finish in 4 hours then please don’t sweat it. 
 
+## Submitting your solution
+
+You have to options to submit your solutions:
+
+1. Email the solution to meg@yieldstreet.com in a zip archive. 
+2. If you prefer to use GitHub, fork the `challenges` repo to a private repo on your personal GitHub account, and add the following GitHub users as collaborators: `uqbar`, `mbrito-yieldstreet`, `JonasSondergard`. **IMPORTANT: PLEASE DO NOT SUBMIT A PULL REQUEST ON THIS REPOSITORY**
