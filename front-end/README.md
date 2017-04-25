@@ -14,6 +14,6 @@ Also, know that we care more about quality rather than how far you get. If youâ€
 You have to options to submit your solutions:
 
 1. Email the solution to challenges@yieldstreet.com in a zip archive. 
-2. If you prefer to use GitHub, fork the `challenges` repo to a **private** repo on your personal GitHub account, and add the following GitHub users as collaborators: `uqbar`, `mbrito-yieldstreet`, `JonasSondergard`. Email challenges@yieldstreet.com to let us know the solution has been pushed.
+2. If you prefer to use GitHub, fork the `challenges` repo to a **private** repo on your personal GitHub account, and add the following GitHub users as collaborators: `uqbar`, `mbrito-yieldstreet`, `JonasSondergard`, `viniciuslacerda`. Email challenges@yieldstreet.com to let us know the solution has been pushed.
 
 **IMPORTANT: PLEASE MAKE SURE THE FORKED REPO IS PRIVATE, AND PLEASE DO NOT SUBMIT A PULL REQUEST ON THIS REPO**
