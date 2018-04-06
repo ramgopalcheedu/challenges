@@ -1,30 +1,45 @@
-# Challenge 2 - Programming and Creative
-### (3 to 3.5 hrs)
-
-For this assignment you'll be using your tech chops and your eye for pixel perfection. Using the provided design assets, we ask you to create an implemention of one of the two options below: (you will not be able to completely finish in 3.5 hours so be diligent in selecting which elements you implement. We care more about the quality of your code than how far you get). 
-
-#### Option 1: Newsletter
-The newsletter is a very important touchpoint with our users and we send it out once a month to more than 10,000 people and organizations across the country. It usually contains a combination of: new features, products, new articles, new blog posts, featured messages, user requests, new event etc.
-
-Please use the design asset: [`Newsletter`](https://app.zeplin.io/project.html#pid=58bd788a01ee60c44b2ff3bd&sid=58bd79636491fcb463d74fea) *(We will send you a Zeplin invitation shortly)* to create your implementation. 
-
-We have not attached any mobile design assets, so use your creativity and judgement to make sure everything is readable, understandable and looks good on mobile form factors.
-
-As you implement the design, please be sure to use mailsafe html (hint: use tables) and css (you can use this link as guide). For all our emails we aim to support, in some form (graceful degradation): Outlook 2007/10/13/16, outlook.com, ipad, iphone 6, android gmail, AOL, gmail.com and Yahoo.com.
-
-*Purpose: This assignment helps us understand your level of expertise and knowledge of CSS and HTML limitations.*
-
-----
+# Challenge 2 - Programming and Creative (4 to 4.5 hrs)
 
 
-#### Option 2: Marketplace 
-The YieldStreet marketplace is the most important page on our platform and to this day, more than $100M has been funneled through here.
+For this assignment you'll be using your tech chops to build a FAQ section that responds to users selecting options from two, related dropdowns. Using the provided images, we ask you to create an implemention of the below: (you will not be able to completely finish in 4 hours so be diligent in selecting which elements you implement. We care more about the quality of your code than how far you get). 
 
-Some of the required aspects for the marketplace design and layout is: trust, visibility, readability, urgency, easy to understand.
+## Assignment: Double Dropdowns
+For this assignment you'll build a FAQ section that relies on two dropdowns to determine what information should be shown. 
 
-Please use the design asset: [`Marketplace`](https://app.zeplin.io/project.html#pid=58bd788a01ee60c44b2ff3bd&sid=58c023ddf753a78833238385) *(We will send you a Zeplin invitation shortly)* to create your implementation. If you know how, please use SASS with BEM syntax.
+Step 1) When a user opens the page, both dropdowns should be in a default state and no FAQ questions should be seen.     
 
-*Purpose: This assignment helps us understand your level of expertise and knowledge of building responsive modular front-ends, helps us gauge your level of design perfection and also gives us a sense of your creative skills around organization and presentation of information.*
+Step 2) Selecting the State from Dropdown #1 will populate Dropdown #2 with a list of potential cities to select
+  
+Step 3) Selecting a city from Dropdown #2 will populate the FAQ questions related only to that city.  If the user selects a different city (with the same state), the questions should update accordingly.
+  
+Step 4) After the city is selected, the city-specific FAQs will show on screen.
+   
+Step 5) If a new state is selected, Dropdown #2 (Cities Dropdown) should reset to a default 'Select an Option...'.
+  
+Step 6) Only after selecting the city are the new, city-specific FAQs shown  
+ 
+
+##Features to implement in the following order of priority:
+Note for dropdowns: Please build the dropdown yourself (no packages, plugins, etc)
+1) State Dropdown
+2) Cities Dropdown that updates accordingly when State dropdown is changed
+3) FAQ Sections
+4) Testing
+5) CSS - add styling at your leisure
+
+#####Items to be sure to include: 
+- An `onChange` callback in the dropdowns
+
+#####Items to include if you have time:
+- Have a default text & value to start
+- Try to be DRY when displaying information 
+- Ability to use ref to fetch values
+- Close dropdown when a user clicks outside of dropdown area
+- Checkmark icon only next to active selection
+- Multiselect
+- Themes
+- Animation
+
+If you already know how, or feel like challenging yourself further, please use CSS in JS with[styled-components](https://www.styled-components.com/docs/basics).
 
 Good luck!
-
