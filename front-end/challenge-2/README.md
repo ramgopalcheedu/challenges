@@ -40,6 +40,6 @@ Note for dropdowns: Please build the dropdown yourself (no packages, plugins, et
 - Themes
 - Animation
 
-If you already know how, or feel like challenging yourself further, please use CSS in JS with[styled-components](https://www.styled-components.com/docs/basics).
+If you already know how, or feel like challenging yourself further, please use CSS in JS with [styled-components](https://www.styled-components.com/docs/basics).
 
 Good luck!
