@@ -49,5 +49,5 @@ Austin Questions & Answers
 San Antonio Questions & Answers
 - Q1) How far away is Austin from San Antonion? 
 - A1) 45 minutes to 2 hours depending on traffic
-- Q2) Are San Antonion's breakfast tacos better than Austin's?
+- Q2) Are San Antonio's breakfast tacos better than Austin's?
 - A2) No way
