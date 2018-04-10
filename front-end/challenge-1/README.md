@@ -1,8 +1,5 @@
-# Challenge 1 - PR Review
-### (~30 min)
+You will find two screenshots in the challenge-1 folder: `#1.png` and `#2.png` 
 
-You'll find a JS file in this folder: `PullRequestChallenge.js`. Evaluate the file/"PR" in regards to best practices (readability, contemporary code patterns, commenting if appropriate, etc) and decide whether you would approve the Pull Request. 
+Compare the two screenshots. #1 is the original design asset produced by the creative team. #2 is an HTML and CSS implementation by a front-end engineer on the team.
 
-Comment right in the file where you would have commented during your pull request review on a github page, and add your final feedback of whether you would approve this PR, and why or why not, at the bottom of the file. 
-
-Good luck!
+Question is - **did the engineer get it right?** Evaluate the implementation in regards to colors, fonts, font sizes, etc. In other words, find as many mistakes in #2 as you can. Circle and annotate them on #2. 
