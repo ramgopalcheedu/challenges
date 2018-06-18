@@ -1,6 +1,6 @@
 # Back End Challenges
 You will find two assignments in the sub-folders here, each with specific instructions on the assignment. 
-1. The first is a review challenge, intended to gauge your code issues. (30 minutes)
+1. The first is a review challenge, intended to gauge your ability to spot code issues. (30 minutes)
 2. The second is a set of implementation challenges, intended to gauge your understanding and familiarity with writing 
 performant and scalable code. It assumes familiarity with Java 8, which is our primary back-end language. (4 hours, 30 minutes)
 
