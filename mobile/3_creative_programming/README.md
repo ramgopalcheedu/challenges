@@ -14,10 +14,10 @@ Users will need the ability to view, create and delete items on their list.
 
 2. Add a button for creating a new to-do item.
 Tapping on that button should:
-  [ ] - present a simple form that allows the user to create a new item
-  [ ] - Disallow posting until an item is > 0 characters.
-  [ ] - Post to the server
-  [ ] - Update the table, showing the newest item
+- [ ] present a simple form that allows the user to create a new item
+- [ ] Disallow posting until an item is > 0 characters.
+- [ ] Post to the server
+- [ ] Update the table, showing the newest item
 
 This form should post the new to-do item to:
 `http://localhost:8000/items`
