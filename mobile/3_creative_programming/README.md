@@ -52,7 +52,9 @@ I should be able to add a new item by:
 POST http://localhost:8000/items
 ```
 With a body of:
+```
 { item: 'Groceries' }
+```
 
 And I should be able to delete an item with:
 ```
