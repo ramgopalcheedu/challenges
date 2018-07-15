@@ -8,9 +8,7 @@ Users will need the ability to view, create and delete items on their list.
 
 ## Acceptance Criteria
 
-1. At launch, the app should load all existing items from the server at:
-`http://localhost:8000/items`
-... and display them in a scrollable table.
+1. At launch, the app should load all existing items from the server and display them in a scrollable table.
 
 2. Add a button for creating a new to-do item.
 Tapping on that button should:
@@ -19,22 +17,21 @@ Tapping on that button should:
 * Post to the server
 * Update the table, showing the newest item
 
-This form should post the new to-do item to:
-`http://localhost:8000/items`
-
 3. On each row, include a button that allows you to delete the item when you complete it.
-Tapping on that button should delete the item on the API and in the UI
-`http://localhost:8000/items/[id]`
-
+Tapping on that button should delete the item on the API and the change should be reflected in the UI.
 
 ---
 ## Server
 
 We have created a basic server available for your use. Run it with:
-`yarn && node server.js`
+```
+yarn && node server.js
+```
 
 Current items should be downloaded from the API:
-`GET http://localhost:8000/items`
+```
+GET http://localhost:8000/items
+```
 which will return:
 
 ```json
@@ -51,9 +48,13 @@ which will return:
 ```
 
 I should be able to add a new item by:
-`POST http://localhost:8000/items`
+```
+POST http://localhost:8000/items
+```
 With a body of:
-{ item: 'My todo list' }
+{ item: 'Groceries' }
 
 And I should be able to delete an item with:
-`DELETE http://localhost:8000/items/[id]`
+```
+DELETE http://localhost:8000/items/[id]
+```
