@@ -1,4 +1,4 @@
-Make me a simple, API-powered to-do list application.
+**Make me a simple, API-powered to-do list application.**
 How the application looks is entirely up to you.
 
 Users will need the ability to view, create and delete items on their list.
