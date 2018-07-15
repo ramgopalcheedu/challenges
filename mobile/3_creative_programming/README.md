@@ -3,9 +3,9 @@ How the application looks is entirely up to you.
 
 Users will need the ability to view, create and delete items on their list.
 
-===========================================================================
+---
 
-Acceptance Criteria:
+## Acceptance Criteria
 
 1. At launch, the app should load all existing items from the server at:
 `http://localhost:8000/items`
@@ -26,8 +26,8 @@ Tapping on that button should delete the item on the API and in the UI
 `http://localhost:8000/items/[id]`
 
 
-===========================================================================
-Server:
+---
+## Server
 
 We have created a basic server available for your use. Run it with:
 `yarn && node server.js`
@@ -39,12 +39,12 @@ which will return:
 ```json
 [
   {
-    id: 1,
-    item: "Fold clothes",
+    "id": 1,
+    "item": "Fold clothes",
   },
   {
-    id: 2,
-    item: "Make the bed",
+    "id": 2,
+    "item": "Make the bed",
   }
 ]
 ```
