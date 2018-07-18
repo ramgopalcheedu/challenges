@@ -1,4 +1,4 @@
-**Make me a simple, API-powered to-do list application.**
+**Make us a simple, API-powered to-do list application.**
 
 How the application looks is entirely up to you.
 
