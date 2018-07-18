@@ -4,6 +4,7 @@ export const FETCH = 'ys/dictionary/FETCH';
 export const FETCHED = 'ys/dictionary/FETCHED';
 export const FETCHING = 'ys/dictionary/FETCHING';
 export const GET_INVESTOR_TYPES = 'ys/dictionary/GET_INVESTOR_TYPES';
+export const GET_HEARD_FROM_SOURCES = 'ys/dictionary/GET_HEAR_FROM_SOURCES';
 
 
 // Initial State
@@ -40,9 +41,9 @@ export function fetched(data) {
 export function fetchingDictionary(data) {
   return { type: FETCHING, data };
 }
-export const getInvestorTypesAsync = data => ({
+
+export const getInvestorTypes = () => ({
   type: GET_INVESTOR_TYPES,
-  data,
 });
 
 
@@ -61,37 +62,8 @@ export const getAssetClasses = () => dispatch => {
   });
 };
 
-const fetchInvestorTypes = () => axios.get('/a/api/dic/investorTypes')
-  .then(res => res.data.options);
-
-export const getTypes = data => ({
-  type: GET_INVESTOR_TYPES,
-  data,
-});
-
-export function getInvestorTypes() {
-  // return function(dispatch) {
-  //   dispatch(getTypes());  
-  // }
-  
-  return dispatch => {
-    //fetchInvestorTypes()
-    //  .then(types => dispatch(getTypes()));
-    dispatch(getTypes());
-  };
-}
-
-
-export const getHearFromSources = () => dispatch => {
-  dispatch(isFetching());
-  return axios.get('/a/api/dic/profile/hearFromSource').then(res => {
-    dispatch(notFetching());
-    dispatch(
-      fetched({
-        hearFromSources: res.data.range,
-      }),
-    );
-  });
+export getHearFromSources = () => {
+  type: GET_HEAR_FROM_SOURCES
 };
 
 

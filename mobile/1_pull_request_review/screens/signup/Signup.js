@@ -25,10 +25,9 @@ class Signup extends PureComponent {
   };
 
   componentDidMount() {
-    // const { getInvestorTypes, getHearFromSources } = this.props;
-    // TODO: investigate error thrown when these are called
-    //getInvestorTypes();
-    //getHearFromSources();
+    const { getInvestorTypes, getHearFromSources } = this.props;
+    getInvestorTypes();
+    getHearFromSources();
   }
 
   getFilteredState = () => _.omit(this.state, 'currentPage');
@@ -135,8 +134,8 @@ const itemShape = PropTypes.shape({
 Signup.propTypes = {
   investorTypes: PropTypes.arrayOf(itemShape).isRequired,
   hearFromSources: PropTypes.arrayOf(itemShape).isRequired,
-  // getInvestorTypes: PropTypes.func.isRequired,
-  // getHearFromSources: PropTypes.func.isRequired,
+  getInvestorTypes: PropTypes.func,
+  getHearFromSources: propTypes.func.isRequired,
   sendSignupIntent: PropTypes.func.isRequired,
   attemptRegister: PropTypes.func.isRequired,
 };
