@@ -1,4 +1,4 @@
-# Challenge 1 - PR Review
+# Challenge 2 - PR Review
 ### (~30 min)
 
 Evaluate the existing PR here: https://github.com/yieldstreet/challenges/pull/4 in regards to best practices (readability, contemporary code patterns, commenting if appropriate, etc) and decide whether you would approve the Pull Request. Please*do not*comment directly on the PR.
