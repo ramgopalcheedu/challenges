@@ -25,7 +25,9 @@ Tapping on that button should delete the item on the API and the change should b
 
 We have created a basic server available for your use. Run it with:
 ```
-yarn && node server.js
+cd server
+yarn
+node index.js
 ```
 
 Current items should be downloaded from the API:
