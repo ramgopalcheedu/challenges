@@ -10,7 +10,7 @@ Also, know that we care more about quality rather than how far you get. If youâ€
 please donâ€™t sweat it. 
 
 ## Submitting your solution
-You have to options to submit your solutions:
+You have two options to submit your solutions:
 
 1. Email the solution to challenges@yieldstreet.com in a zip archive. 
 2. If you prefer to use GitHub, fork the `challenges` repo to a **private** repo on your personal GitHub account, and 
