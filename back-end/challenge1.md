@@ -26,3 +26,8 @@ public class StuffService {
 ```
 
 What's wrong with the `defaultInstance()` implementation? How would you fix it?
+
+### Notes and hints
+* The _default_ instance for `StuffService` must be a singleton, but other non-default instances can be instantiated. The constructor doesn't have to be private.
+* The constructor parameters for this class represent dependencies, and we're using `Object` as a placeholder. In other words, there's nothing wrong with `new Object()`.
+* What happens if two threads call `defaultInstance()` at the same time?
