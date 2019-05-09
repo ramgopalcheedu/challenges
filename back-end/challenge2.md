@@ -75,10 +75,10 @@ asynchronously. Start from the following implementation, and assume default
 execution facilities.
 
 ```java
-public class AsyncStuffRepository {
+public class BlockingToAsyncStuffRepository {
     private final BlockingStuffRepository blockingRepository;
 
-    public AsyncStuffRepository(BlockingStuffRepository blockingRepository) {
+    public BlockingToAsyncStuffRepository(BlockingStuffRepository blockingRepository) {
         this.blockingRepository = blockingRepository;
     }
 
@@ -125,10 +125,10 @@ Write a method adapting the `findById(String id, StuffCallback callback)`
 method above to execute asynchronously. Start from the following implementation.
 
 ```java
-public class AsyncStuffRepository {
+public class CallbackToAsyncStuffRepository {
     private final CallbackStuffRepository callbackRepository;
 
-    public AsyncStuffRepository(CallbackStuffRepository callbackRepository) {
+    public CallbackToAsyncStuffRepository(CallbackStuffRepository callbackRepository) {
         this.callbackRepository = callbackRepository;
     }
 
