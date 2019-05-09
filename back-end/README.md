@@ -23,7 +23,18 @@ reasoning than in executable code.
 That said, if you want to run the tests you'll need to install [sbt][1]. Follow
 the instructions on the website, then run `sbt test` in this folder to run the
 test suite. You can also import the project into an IDE like [IntelliJ IDEA][2]
-or [Eclipse][3]. 
+or [Eclipse][3].
+
+There are only four files that need to be modified in your solution:
+
+* [StuffService.java](src/main/java/yieldstreet/challenges/singleton/StuffService.java) 
+* [StuffRepository.java](src/main/java/yieldstreet/challenges/concurrent/StuffRepository.java) 
+* [BlockingToAsyncStuffRepository.java](src/main/java/yieldstreet/challenges/concurrent/BlockingToAsyncStuffRepository.java) 
+* [CallbackToAsyncStuffRepository.java](src/main/java/yieldstreet/challenges/concurrent/CallbackToAsyncStuffRepository.java)
+
+Each of these files has a `TODO` comment in the exact place you need to make
+changes. Of course, you're free to examine the test cases to understand what
+they're expecting from your solution.  
 
 ## Submitting your solution
 You have two options to submit your solutions:
