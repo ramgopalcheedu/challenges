@@ -1,34 +1,42 @@
-You are given access to an FTP site site and there is just one file on that site called data.csv that is full of important records that your team needs.
 
-When you pull the file, you are given its last_modified_dt and this file is updated on irregular intervals though never more often than daily
 
-The table in data.csv simply has the following columns:
+You are given access to an FTP site site and there is just one file on that site called _data.csv_ that is full of important records that your team needs.
+
+When you pull the file, you are given its *last_modified_dt* and this file is updated on irregular intervals though never more often than daily
+
+The table in _data.csv_ simply has the following columns:
+```
 data1
 data2
 data3
 …
 dataN
+```
 
-Your team wants a table, FDATA, with the following columns:
+Your team wants a table, _FDATA_, with the following columns:
+```
 added_dt
 data1
 data2
 …
 dataN
+```
 
-They want the added_dt to be the last_modified_dt when the record first appeared in the CSV. A record is considered new if there is no row that exactly matches it in a previous version of the file.
+They want the *added_dt* to be the *last_modified_dt* when the record first appeared in the CSV. A record is considered new if there is no row that exactly matches it in a previous version of the file.
 
-##Part One
-Write code that generates the initial version of FDATA
-from what's in data.csv right now. No need to write code
-that does the download. Assume data.csv is available locally
+## Part One
+Write code that generates the initial version of _FDATA_
+from what's in _data.csv_ right now. Do not write code
+that does the download. Assume _data.csv_ is available locally
 
-##Part Two
-Assume data.csv is available locally but has been updated.
-Write code that updates FDATA with the new records
-  that are now in data.csv
+## Part Two
+Assume _FDATA_ has been created and available via a simple SQL query.
+Assume _data.csv_ is available locally but has changed since the last time
+_FDATA_ was generated.
+Write code that updates _FDATA_ with the new records
+  that are now in _data.csv_
 
-##Part Three (Bonus)
-Write a few sentences about how you would orchestrate
-the implementation of a pipeline that does
-Part Two on a regular cadence
+*NOTE:*
+* _FDATA_ needs to have at least the aforementioned columns, but it can have more columns than that if it helps with the engineering
+* If this challenge is taking too long or your code seems very inefficient,
+  then email us and we'll give you a key hint
