@@ -36,19 +36,6 @@ Each of these files has a `TODO` comment in the exact place you need to make
 changes. Of course, you're free to examine the test cases to understand what
 they're expecting from your solution.  
 
-## Submitting your solution
-You have two options to submit your solutions:
-
-1. Email the solution to challenges@yieldstreet.com in a zip archive. 
-2. If you prefer to use GitHub, fork the `challenges` repo to a **private**
-   repo on your personal GitHub account, and add the following GitHub users as
-   collaborators: `uqbar`, `mbrito-yieldstreet`, `paulcutajar` and
-   `rfialho-yieldstreet`. Email challenges@yieldstreet.com to let us know the
-   solution has been pushed.
-
-**IMPORTANT: PLEASE MAKE SURE THE FORKED REPO IS PRIVATE, AND PLEASE DO NOT
-SUBMIT A PULL REQUEST ON THIS REPO**
-
 [1]: https://www.scala-sbt.org
 [2]: https://www.jetbrains.com/idea
 [3]: https://www.eclipse.org
