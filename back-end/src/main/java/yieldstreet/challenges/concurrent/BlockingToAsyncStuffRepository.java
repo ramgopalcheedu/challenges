@@ -1,5 +1,6 @@
 package yieldstreet.challenges.concurrent;
 
+import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
 
 public class BlockingToAsyncStuffRepository {
@@ -16,7 +17,6 @@ public class BlockingToAsyncStuffRepository {
      * @return a completion stage for the stuff.
      */
     public CompletionStage<Stuff> findById(String id) {
-        // TODO: provide your implementation here
-        throw new UnsupportedOperationException();
+        return CompletableFuture.supplyAsync(() -> blockingRepository.findById(id));
     }
 }

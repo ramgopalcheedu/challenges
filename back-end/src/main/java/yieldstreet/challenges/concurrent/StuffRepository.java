@@ -39,7 +39,7 @@ public interface StuffRepository {
      */
     default CompletionStage<String> findOrCreateStuff(Stuff payload) {
         // TODO: add your implementation here
-        throw new UnsupportedOperationException();
+        return findStuff(payload).thenApply(s -> s.orElseGet(() -> createStuff(payload).toCompletableFuture().join()));
     }
 
 }

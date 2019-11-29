@@ -4,6 +4,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
 
 public class CallbackToAsyncStuffRepository {
+    
     private final CallbackStuffRepository callbackRepository;
 
     public CallbackToAsyncStuffRepository(CallbackStuffRepository callbackRepository) {
@@ -18,7 +19,20 @@ public class CallbackToAsyncStuffRepository {
      * @return a completion stage for the stuff.
      */
     public CompletionStage<Stuff> findById(String id) {
-        // TODO: provide your implementation here
-        throw new UnsupportedOperationException();
+
+        CompletableFuture<Stuff> completableFuture = new CompletableFuture<>();
+
+        callbackRepository.findById(id,new StuffCallback() {
+            @Override
+            public void onSuccess(Stuff stuff) {
+                completableFuture.complete(stuff);
+            }
+
+            @Override
+            public void onError(Throwable throwable) {
+                completableFuture.completeExceptionally(throwable);
+            }
+        });
+        return  completableFuture;
     }
 }

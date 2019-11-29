@@ -17,8 +17,12 @@ public class StuffService {
     }
 
     public static StuffService defaultInstance() {
-        if (_instance == null) {
-            _instance = new StuffService(new Object(), new Object());
+        if (null == _instance) {
+            synchronized (StuffService.class){
+                if (null == _instance) {
+                    _instance = new StuffService(new Object(), new Object());
+                }
+            }
         }
 
         return _instance;
