@@ -1,7 +1,11 @@
 package yieldstreet.challenges.concurrent;
 
 import java.util.Optional;
+import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Supplier;
 
 public interface StuffRepository {
 
@@ -39,7 +43,12 @@ public interface StuffRepository {
      */
     default CompletionStage<String> findOrCreateStuff(Stuff payload) {
         // TODO: add your implementation here
-        return findStuff(payload).thenApply(s -> s.orElseGet(() -> createStuff(payload).toCompletableFuture().join()));
+
+        return findStuff(payload).thenCompose(s -> s.map(CompletableFuture::completedStage)
+                .orElseGet(() -> createStuff(payload)));
+
+        /*return findStuff(payload).thenApply(s -> s.orElseGet(() -> createStuff(payload)
+                                    .toCompletableFuture().join()));*/
     }
 
 }
